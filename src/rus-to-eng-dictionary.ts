@@ -1,4 +1,4 @@
-import { engToRusDictionary } from "./eng-to-rus-dictionary";
+import { engToRusDictionary } from "./eng-to-rus-dictionary.js";
 
 const rusToEngDictionary: Record<string, string> = {};
 

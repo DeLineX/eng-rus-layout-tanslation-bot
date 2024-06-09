@@ -1,4 +1,4 @@
-import { baseDictionary } from "./base-dictionary";
+import { baseDictionary } from "./base-dictionary.js";
 
 export const engToRusDictionary: Record<string, string> = {
   ...baseDictionary,

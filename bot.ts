@@ -1,7 +1,7 @@
 import { Telegraf } from "telegraf";
 import { message } from "telegraf/filters";
-import { engToRusDictionary } from "./src/eng-to-rus-dictionary";
-import { rusToEngDictionary } from "./src/rus-to-eng-dictionary";
+import { engToRusDictionary } from "./src/eng-to-rus-dictionary.js";
+import { rusToEngDictionary } from "./src/rus-to-eng-dictionary.js";
 import dotenv from "dotenv";
 
 dotenv.config();

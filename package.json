@@ -17,7 +17,7 @@
   "scripts": {
     "dev": "tsx watch bot.ts",
     "prebuild": "rimraf dist",
-    "build": "tsc"
+    "build": "tsc --build"
   },
   "engines": {
     "node": ">=20"

@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "NodeNext",
     "esModuleInterop": true,
     "target": "es6",
     "noImplicitAny": true,
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
     "outDir": "dist",
     "resolveJsonModule": true,
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "skipLibCheck": true
   }
 }
